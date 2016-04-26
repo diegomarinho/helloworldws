@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!--
+ID...................: 6098
+Data Geracao.........: 2013-01-29 14:50:08
+Tipo Documento.......: Solicitacao SP/SADT
+Versao TISSNet.......: 5.0
+Versao do Xml esquema: 
+-->
+
+<ansTISS:mensagemTISS xmlns="http://www.ans.gov.br/padroes/tiss/schemas"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.ans.gov.br/padroes/tiss/schemas http://www.ans.gov.br/padroes/tiss/schemas/tissV2_02_03.xsd"  xmlns:ansTISS="http://www.ans.gov.br/padroes/tiss/schemas" >
+	<ansTISS:cabecalho>
+		<ansTISS:identificacaoTransacao>
+			<ansTISS:tipoTransacao>SOLICITACAO_PROCEDIMENTOS</ansTISS:tipoTransacao>
+			<ansTISS:sequencialTransacao>18</ansTISS:sequencialTransacao>
+			<ansTISS:dataRegistroTransacao>2013-01-29</ansTISS:dataRegistroTransacao>
+			<ansTISS:horaRegistroTransacao>14:50:06</ansTISS:horaRegistroTransacao>
+		</ansTISS:identificacaoTransacao>
+		<ansTISS:origem>
+			<ansTISS:codigoPrestadorNaOperadora>
+				<ansTISS:codigoPrestadorNaOperadora>0970109422</ansTISS:codigoPrestadorNaOperadora>
+			</ansTISS:codigoPrestadorNaOperadora>
+		</ansTISS:origem>
+		<ansTISS:destino>
+			<ansTISS:registroANS>319996</ansTISS:registroANS>
+		</ansTISS:destino>
+		<ansTISS:versaoPadrao>2.02.03</ansTISS:versaoPadrao>
+		<ansTISS:identificacaoSoftwareGerador>
+			<ansTISS:nomeAplicativo>Mv-Tiss</ansTISS:nomeAplicativo>
+			<ansTISS:versaoAplicativo>V20202-004</ansTISS:versaoAplicativo>
+			<ansTISS:fabricanteAplicativo>MV Sistemas</ansTISS:fabricanteAplicativo>
+		</ansTISS:identificacaoSoftwareGerador>
+	</ansTISS:cabecalho>
+	<ansTISS:prestadorParaOperadora>
+		<ansTISS:solicitacaoProcedimento>
+			<ansTISS:guiaSolicitacaoSADT>
+				<ansTISS:identificacaoGuiaSolicitacaoSADTSP>
+					<ansTISS:identificacaoFontePagadora>
+						<ansTISS:registroANS>319996</ansTISS:registroANS>
+					</ansTISS:identificacaoFontePagadora>
+					<ansTISS:dataEmissaoGuia>2013-01-29</ansTISS:dataEmissaoGuia>
+					<ansTISS:numeroGuiaPrestador>13</ansTISS:numeroGuiaPrestador>
+				</ansTISS:identificacaoGuiaSolicitacaoSADTSP>
+				<ansTISS:dadosBeneficiario>
+					<ansTISS:numeroCarteira>09701111111111118</ansTISS:numeroCarteira>
+					<ansTISS:nomeBeneficiario>BENEFICIARIO INEXISTENTE</ansTISS:nomeBeneficiario>
+					<ansTISS:nomePlano>EVENTUAL</ansTISS:nomePlano>
+					<ansTISS:validadeCarteira>2013-02-20</ansTISS:validadeCarteira>
+				</ansTISS:dadosBeneficiario>
+				<ansTISS:dadosSolicitante>
+					<ansTISS:contratado>
+						<ansTISS:identificacao>
+							<ansTISS:CNPJ>06047087000805</ansTISS:CNPJ>
+						</ansTISS:identificacao>
+						<ansTISS:nomeContratado>HOSP.MV SISTEMAS</ansTISS:nomeContratado>
+					</ansTISS:contratado>
+					<ansTISS:profissional>
+						<ansTISS:nomeProfissional>ANGELA  CORREIA (NAO MEXER)</ansTISS:nomeProfissional>
+						<ansTISS:conselhoProfissional>
+							<ansTISS:siglaConselho>CRM</ansTISS:siglaConselho>
+							<ansTISS:numeroConselho>11426</ansTISS:numeroConselho>
+							<ansTISS:ufConselho>PE</ansTISS:ufConselho>
+						</ansTISS:conselhoProfissional>
+						<ansTISS:cbos>1312.05</ansTISS:cbos>
+					</ansTISS:profissional>
+				</ansTISS:dadosSolicitante>
+				<ansTISS:caraterSolicitacao>E</ansTISS:caraterSolicitacao>
+				<ansTISS:dataHoraSolicitacao>2013-01-29T14:48:00.0Z</ansTISS:dataHoraSolicitacao>
+				<ansTISS:procedimentosSolicitados>
+					<ansTISS:procedimentoSolicitado>
+						<ansTISS:quantidadeSolicitada>1</ansTISS:quantidadeSolicitada>
+						<ansTISS:procedimento>
+							<ansTISS:codigo>10101012</ansTISS:codigo>
+							<ansTISS:tipoTabela>16</ansTISS:tipoTabela>
+							<ansTISS:descricao>CONSULTA EM CONSULTORIO (NO HORARIO NORMAL OU PREESTABELECID</ansTISS:descricao>
+						</ansTISS:procedimento>
+					</ansTISS:procedimentoSolicitado>
+				</ansTISS:procedimentosSolicitados>
+			</ansTISS:guiaSolicitacaoSADT>
+		</ansTISS:solicitacaoProcedimento>
+	</ansTISS:prestadorParaOperadora>
+	<ansTISS:epilogo>
+		<ansTISS:hash>1f6d3f3b61ce11a82b9c9ece6c82e41f</ansTISS:hash>
+	</ansTISS:epilogo>
+</ansTISS:mensagemTISS>
